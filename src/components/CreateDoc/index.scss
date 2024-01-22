@@ -1,0 +1,26 @@
+.new-doc-container {
+  background-color: rgb(218, 216, 216);
+  display: flex;
+  justify-content: center;
+
+  .new-doc-inner {
+    width: 70%;
+
+    .start-doc {
+      width: 150px;
+      height: 200px;
+      cursor: pointer;
+      background-color: white;
+      border: 1px solid #9c9c9c;
+      border-radius: 3px;
+    }
+
+    .start-doc:hover {
+      border: 1px solid #5483e9;
+    }
+
+    .title {
+      margin-top: 0px;
+    }
+  }
+}
